@@ -1,4 +1,4 @@
-//$navbar-default-bg: #073B15;
+//$navbar-default-bg: #073B15; #f5f6f7
 @import "bootstrap/dist/css/bootstrap";
 
 .jumbotron {
@@ -23,8 +23,49 @@
 	font-weight: bold;
 }
 
+.color_danger {
+	background-color: #FFCCFF;
+}
+
+.color_look {
+	color: #339966;
+}
+
+.color_background {
+	background-color: #339966;
+}
+
+.color_look a {
+	color: #006666;
+}
+
 .center {
 	text-align: center;
+}
+
+.description {
+	margin-top: 0;
+}
+
+.btn-xlarge {
+	background-color: #006666;
+}
+
+.btn-xlarge:hover {
+		color: #fff;
+		text-decoration: none;
+}
+
+.well {
+	background-color: #f5f6f7;
+}
+
+.well a {
+	color: #7DCEA0;
+}
+
+.chef_info {
+	margin-top: 0px;
 }
 
 #logo {
@@ -41,19 +82,25 @@
 	text-decoration: underline;
 }
 
-.btn-xlarge {
-	background-color: #073B15;
-}
-
-.btn-xlarge:hover {
-		color: #fff;
-		text-decoration: none;
-}
-
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
-	color: #777
+	color: #777;
 }
 
+footer a {
+	color: #555;
+}
+
+footer a:hover {
+	color: #222;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;	
+}
