@@ -33,12 +33,14 @@ class RecipesTest < ActionDispatch::IntegrationTest
 		assert_match @chef.chefsname, response.body
 	end
 
-	test "should get recipe show" do
+	test "should get recipes show" do
 		get recipe_path(@recipe)
 		assert_template 'recipes/show'
 #		assert_match @recipe.name, response.body
 		assert_match @recipe.description, response.body
 		assert_match @chef.chefsname, response.body
+		assert_select "a[href=?]", edit_recipe_path(@recipe), text: "Edit this recipe"
+		assert_select "a[href=?]", recipe_path(@recipe), text: "Delete this recipe"
 	end
 
 	test "create new valid recipe" do

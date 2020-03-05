@@ -10,7 +10,8 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 gem 'pg', '~> 1.2.2'
 gem 'bootstrap',  '~> 4.3.1'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+#gem 'puma', '~> 4.1'
+gem "puma", ">= 4.3.3"
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -34,7 +35,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rails-controller-testing'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem "nokogiri", ">= 1.10.8"
+  gem "nokogiri", ">= 1.10.9"
 end
 
 group :development do
