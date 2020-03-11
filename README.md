@@ -30,6 +30,22 @@ Recipe-
 -maximum and minimum length for name and description
 
 Cheefs-
+	Chefs have chefsname (username), email
+	Chefs have a one-to-many association with redipes
+	Chefs can be created from console
+	We have a test suite to test chef model
+
+	Chefs cont-
+	Ability to sign-up chefs to use CRUD operations
+	Show profile page
+	Secured Login and Logout
+	Apply restrictions to the app for CRUD operations
+	Admin login and secure page
+	Add password digest
+
+
+
+Test-
 -	chefname should be present
 -	email should be present
 -	max & min length on email, chefname should be valid
