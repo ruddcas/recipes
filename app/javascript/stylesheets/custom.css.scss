@@ -32,12 +32,13 @@
 }
 
 .color_background {
-	background-color: #339966;
+	background-color: #114422;
+	//#339966;
 }
 
-.color_look a {
-	color: #006666;
-}
+// .color_look a {
+// 	color: #006666;
+// }
 
 .center {
 	text-align: center;
@@ -61,7 +62,8 @@
 }
 
 .well a {
-	color: #7DCEA0;
+	color: #114422;
+	// color: #339966;
 }
 
 .chef_info {
@@ -70,9 +72,14 @@
 
 .recipe-actions {
 	padding-top: 5px;
-		a {
-			color: #fff;
-		}
+		// a {
+		// 	color: #fff;
+		// }
+}
+
+.listing {
+	list-style: none;
+	padding-left: 0;
 }
 
 #logo {
@@ -87,6 +94,12 @@
 #logo:hover {
 	color: #073B15;
 	text-decoration: underline;
+}
+
+.chef-title {
+	color: #339966;
+	font-weight: bold;
+	font-size: 1.25em;
 }
 
 footer {

@@ -2,12 +2,16 @@
 
 <div class="row">
 	<div class="col-md-4 offset-md-4 center">
-		<%= gravatar_for @chef, size: 150 %>
+		<%= gravatar_for @chef, size: 100 %>
 	</div>
 </div>
-
 
 <hr/>
 
 <h4 align="center"><%= @chef.chefsname %>'s recipes </h4>
-<%= render 'recipes/recipe', obj: @chef.recipes %>
+	
+<div align="center"><%= will_paginate @chef_recipes, list_classes: %w(pagination justify-content-end) %></div>
+
+<%= render 'recipes/recipe', obj: @chef_recipes %>
+
+<div align="center"><%= will_paginate @chef_recipes, list_classes: %w(pagination justify-content-end) %></div>

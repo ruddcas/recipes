@@ -1,1 +1,7 @@
-<%= render 'shared/page_title', title: "List of Chefs" %>
+<%= render 'shared/page_title', title: "Showing List Of All Chefs" %>
+
+<div align="center"><%= will_paginate @chefs, list_classes: %w(pagination justify-content-end) %></div>
+
+<%= render 'chef', obj: @chefs %>
+
+<div align="center"><%= will_paginate @chefs, list_classes: %w(pagination justify-content-end) %></div>
