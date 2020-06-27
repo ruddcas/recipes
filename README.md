@@ -1,4 +1,7 @@
 # README
+CASPER:/mnt/f/apps/rails_projects/recipes$ git init
+
+Reinitialized existing Git repository in /mnt/f/apps/rails_projects/recipes/.git/
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
