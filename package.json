@@ -2,17 +2,24 @@
   "name": "recipes",
   "private": true,
   "dependencies": {
+    "3.0.0": "^3.0.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.2.2",
+    "@rails/webpacker": "^5.2.1",
     "bootstrap": "4.4.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "ruby": "^0.6.1",
     "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0",
+  "version": "1.22.4",
   "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:ruddcas/recipes.git",
+  "license": "MIT"
 }
